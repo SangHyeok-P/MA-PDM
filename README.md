@@ -6,6 +6,13 @@ This repo contains the Pytorch implementation of our paper:
 - **Accepted at AAAI 2025.**  
 ![framework](MA-PDM.png)
 
+## Training
+All configurations are in the [configs](configs/) folder. All the scripts are located in the [scripts](script/) folder.
+
+## Testing
+```
+bash test.sh
+```
 ## Citation
 
 If you find this repo useful for your research, please consider citing our paper:

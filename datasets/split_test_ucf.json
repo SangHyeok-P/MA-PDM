@@ -1,0 +1,668 @@
+{
+    "Abuse028_x264": {
+        "length": 1412,
+        "annotation": [
+            165,
+            240,
+            -1,
+            -1
+        ]
+    },
+    "Abuse030_x264": {
+        "length": 1544,
+        "annotation": [
+            1275,
+            1360,
+            -1,
+            -1
+        ]
+    },
+    "Arson009_x264": {
+        "length": 743,
+        "annotation": [
+            220,
+            315,
+            -1,
+            -1
+        ]
+    },
+    "Arson011_x264": {
+        "length": 1266,
+        "annotation": [
+            150,
+            420,
+            680,
+            1267
+        ]
+    },
+    "Arson016_x264": {
+        "length": 1795,
+        "annotation": [
+            1000,
+            1796,
+            -1,
+            -1
+        ]
+    },
+    "Arson018_x264": {
+        "length": 842,
+        "annotation": [
+            270,
+            600,
+            -1,
+            -1
+        ]
+    },
+    "Arson035_x264": {
+        "length": 1437,
+        "annotation": [
+            600,
+            900,
+            -1,
+            -1
+        ]
+    },
+    "Burglary018_x264": {
+        "length": 1125,
+        "annotation": [
+            720,
+            1050,
+            -1,
+            -1
+        ]
+    },
+    "Burglary021_x264": {
+        "length": 1537,
+        "annotation": [
+            60,
+            200,
+            840,
+            1340
+        ]
+    },
+    "Burglary033_x264": {
+        "length": 1259,
+        "annotation": [
+            60,
+            330,
+            -1,
+            -1
+        ]
+    },
+    "Burglary037_x264": {
+        "length": 1920,
+        "annotation": [
+            240,
+            390,
+            540,
+            1800
+        ]
+    },
+    "Burglary092_x264": {
+        "length": 625,
+        "annotation": [
+            240,
+            420,
+            -1,
+            -1
+        ]
+    },
+    "Explosion004_x264": {
+        "length": 1902,
+        "annotation": [
+            75,
+            225,
+            -1,
+            -1
+        ]
+    },
+    "Explosion008_x264": {
+        "length": 1748,
+        "annotation": [
+            1005,
+            1245,
+            -1,
+            -1
+        ]
+    },
+    "Explosion011_x264": {
+        "length": 1571,
+        "annotation": [
+            795,
+            945,
+            -1,
+            -1
+        ]
+    },
+    "Explosion016_x264": {
+        "length": 963,
+        "annotation": [
+            180,
+            450,
+            -1,
+            -1
+        ]
+    },
+    "Explosion017_x264": {
+        "length": 1643,
+        "annotation": [
+            990,
+            1440,
+            -1,
+            -1
+        ]
+    },
+    "Explosion020_x264": {
+        "length": 1291,
+        "annotation": [
+            60,
+            270,
+            -1,
+            -1
+        ]
+    },
+    "Explosion021_x264": {
+        "length": 782,
+        "annotation": [
+            135,
+            270,
+            -1,
+            -1
+        ]
+    },
+    "Explosion025_x264": {
+        "length": 505,
+        "annotation": [
+            260,
+            420,
+            -1,
+            -1
+        ]
+    },
+    "Explosion027_x264": {
+        "length": 776,
+        "annotation": [
+            105,
+            180,
+            -1,
+            -1
+        ]
+    },
+    "Explosion028_x264": {
+        "length": 1705,
+        "annotation": [
+            280,
+            700,
+            -1,
+            -1
+        ]
+    },
+    "Explosion039_x264": {
+        "length": 998,
+        "annotation": [
+            60,
+            150,
+            -1,
+            -1
+        ]
+    },
+    "Fighting018_x264": {
+        "length": 1389,
+        "annotation": [
+            80,
+            420,
+            -1,
+            -1
+        ]
+    },
+    "Fighting033_x264": {
+        "length": 1105,
+        "annotation": [
+            570,
+            840,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents001_x264": {
+        "length": 1366,
+        "annotation": [
+            210,
+            300,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents002_x264": {
+        "length": 347,
+        "annotation": [
+            240,
+            300,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents004_x264": {
+        "length": 389,
+        "annotation": [
+            140,
+            189,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents009_x264": {
+        "length": 918,
+        "annotation": [
+            210,
+            240,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents010_x264": {
+        "length": 528,
+        "annotation": [
+            230,
+            270,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents012_x264": {
+        "length": 468,
+        "annotation": [
+            250,
+            390,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents017_x264": {
+        "length": 243,
+        "annotation": [
+            60,
+            130,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents019_x264": {
+        "length": 1314,
+        "annotation": [
+            750,
+            900,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents020_x264": {
+        "length": 1773,
+        "annotation": [
+            610,
+            730,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents021_x264": {
+        "length": 155,
+        "annotation": [
+            30,
+            90,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents022_x264": {
+        "length": 716,
+        "annotation": [
+            120,
+            220,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents121_x264": {
+        "length": 1835,
+        "annotation": [
+            330,
+            390,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents122_x264": {
+        "length": 647,
+        "annotation": [
+            300,
+            360,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents123_x264": {
+        "length": 1005,
+        "annotation": [
+            130,
+            210,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents124_x264": {
+        "length": 1495,
+        "annotation": [
+            250,
+            420,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents125_x264": {
+        "length": 1771,
+        "annotation": [
+            490,
+            600,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents128_x264": {
+        "length": 565,
+        "annotation": [
+            90,
+            200,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents131_x264": {
+        "length": 1524,
+        "annotation": [
+            180,
+            240,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents132_x264": {
+        "length": 1862,
+        "annotation": [
+            220,
+            320,
+            -1,
+            -1
+        ]
+    },
+    "RoadAccidents133_x264": {
+        "length": 673,
+        "annotation": [
+            270,
+            450,
+            -1,
+            -1
+        ]
+    },
+    "Robbery048_x264": {
+        "length": 1409,
+        "annotation": [
+            450,
+            930,
+            -1,
+            -1
+        ]
+    },
+    "Robbery050_x264": {
+        "length": 1701,
+        "annotation": [
+            495,
+            1410,
+            -1,
+            -1
+        ]
+    },
+    "Robbery102_x264": {
+        "length": 1827,
+        "annotation": [
+            1080,
+            1560,
+            -1,
+            -1
+        ]
+    },
+    "Robbery106_x264": {
+        "length": 1197,
+        "annotation": [
+            480,
+            600,
+            -1,
+            -1
+        ]
+    },
+    "Shooting002_x264": {
+        "length": 1206,
+        "annotation": [
+            1020,
+            1100,
+            -1,
+            -1
+        ]
+    },
+    "Shooting004_x264": {
+        "length": 1793,
+        "annotation": [
+            500,
+            660,
+            -1,
+            -1
+        ]
+    },
+    "Shooting007_x264": {
+        "length": 1430,
+        "annotation": [
+            45,
+            165,
+            -1,
+            -1
+        ]
+    },
+    "Shooting008_x264": {
+        "length": 1625,
+        "annotation": [
+            75,
+            315,
+            -1,
+            -1
+        ]
+    },
+    "Shooting013_x264": {
+        "length": 1073,
+        "annotation": [
+            860,
+            945,
+            -1,
+            -1
+        ]
+    },
+    "Shooting015_x264": {
+        "length": 1713,
+        "annotation": [
+            855,
+            1715,
+            -1,
+            -1
+        ]
+    },
+    "Shooting018_x264": {
+        "length": 1799,
+        "annotation": [
+            315,
+            480,
+            -1,
+            -1
+        ]
+    },
+    "Shooting021_x264": {
+        "length": 1275,
+        "annotation": [
+            480,
+            630,
+            -1,
+            -1
+        ]
+    },
+    "Shooting026_x264": {
+        "length": 1403,
+        "annotation": [
+            195,
+            600,
+            -1,
+            -1
+        ]
+    },
+    "Shooting028_x264": {
+        "length": 1898,
+        "annotation": [
+            285,
+            555,
+            -1,
+            -1
+        ]
+    },
+    "Shooting034_x264": {
+        "length": 1409,
+        "annotation": [
+            960,
+            1050,
+            -1,
+            -1
+        ]
+    },
+    "Shooting037_x264": {
+        "length": 305,
+        "annotation": [
+            140,
+            260,
+            -1,
+            -1
+        ]
+    },
+    "Shooting043_x264": {
+        "length": 1874,
+        "annotation": [
+            945,
+            1230,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting005_x264": {
+        "length": 1967,
+        "annotation": [
+            720,
+            930,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting016_x264": {
+        "length": 1483,
+        "annotation": [
+            630,
+            720,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting017_x264": {
+        "length": 457,
+        "annotation": [
+            360,
+            420,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting027_x264": {
+        "length": 1873,
+        "annotation": [
+            1080,
+            1160,
+            1470,
+            1710
+        ]
+    },
+    "Shoplifting028_x264": {
+        "length": 1357,
+        "annotation": [
+            570,
+            840,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting031_x264": {
+        "length": 447,
+        "annotation": [
+            120,
+            330,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting033_x264": {
+        "length": 899,
+        "annotation": [
+            630,
+            750,
+            -1,
+            -1
+        ]
+    },
+    "Shoplifting037_x264": {
+        "length": 1386,
+        "annotation": [
+            1140,
+            1200,
+            -1,
+            -1
+        ]
+    },
+    "Stealing062_x264": {
+        "length": 1560,
+        "annotation": [
+            360,
+            1050,
+            -1,
+            -1
+        ]
+    },
+    "Vandalism007_x264": {
+        "length": 1146,
+        "annotation": [
+            240,
+            750,
+            -1,
+            -1
+        ]
+    },
+    "Vandalism017_x264": {
+        "length": 1011,
+        "annotation": [
+            270,
+            330,
+            780,
+            840
+        ]
+    },
+    "Vandalism036_x264": {
+        "length": 1443,
+        "annotation": [
+            540,
+            780,
+            990,
+            1080
+        ]
+    }
+}

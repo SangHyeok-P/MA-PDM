@@ -1,0 +1,50 @@
+data:
+    dataset: "ucf"
+    image_size: 256
+    patch_size: 64
+    channels: 3
+    num_workers:  8
+    data_dir: ""
+    conditional: True
+    time_step: 6
+logger:
+    logdir: 'logs/ucf/loss'
+model:
+    in_channels: 18
+    out_ch: 3
+    ch: 64
+    ch_mult: [1, 2, 2, 4]
+    m_size: 8
+    num_res_blocks: 1
+    attn_resolutions: [16]
+    dropout: 0.0
+    ema_rate: 0.999
+    ema: True
+    resamp_with_conv: False
+
+diffusion:
+    beta_schedule: linear
+    beta_start: 0.0002
+    beta_end: 0.02
+    num_diffusion_timesteps: 1000
+
+training:
+    patch_n: 16
+    batch_size: 18
+    n_epochs: 30
+    n_iters: 2000000
+    snapshot_freq: 10000
+    image_sample_freq: 1000
+
+sampling:
+    batch_size: 16
+    last_only: True
+    num_diffusion_timesteps: 1000
+    resume: 'ckpts/ucf_final.pth'
+
+optim:
+    weight_decay: 0.0
+    optimizer: "Adam"
+    lr: 0.0001
+    amsgrad: False
+    eps: 0.00000001

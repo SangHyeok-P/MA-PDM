@@ -4,7 +4,7 @@ data:
     patch_size: 64
     channels: 3
     num_workers:  8
-    data_dir: ""
+    data_dir: "/Users/parksanghyeok/Desktop/DGIST/3____ROND/[ROND] Militech/1____2025 Militech/0___Research/3___Code/ShanghaiTech"
     conditional: True
     time_step: 6
 logger:

@@ -83,36 +83,55 @@ class ADLoader(data.Dataset):
             
             for i in data.keys():    
                 videos.append(os.path.join(self.dir,i))
+
         else:
-            videos = glob.glob(os.path.join(self.dir, '*'))
-        videos=[c.replace("\\","/") for c in videos ]
-        for video in sorted(videos):
-            video_name = video.split('/')[-1]
-            self.videos[video_name] = {}
-            self.videos[video_name]['path'] = video
-            self.videos[video_name]['frame'] = glob.glob(os.path.join(video, '*.jpg'))
-            self.videos[video_name]['frame'].sort()
-            self.videos[video_name]['frame']=[c.replace("\\","/") for c in self.videos[video_name]['frame']]
-            self.videos[video_name]['length'] = len(self.videos[video_name]['frame'])
+            escaped_dir = glob.escape(self.dir)
+            base_path_pattern = os.path.join(escaped_dir, '*')
+            print(f"Searching with escaped pattern: {base_path_pattern}")
             
+            all_paths = glob.glob(base_path_pattern)
+            video_folders = [p for p in all_paths if os.path.isdir(p)]
+            
+            if not video_folders:
+                print(f"Warning: No subdirectories found in {self.dir}")
+                return
+
+            print(f"Found {len(video_folders)} directories.")
+            
+            videos = [c.replace("\\", "/") for c in video_folders]
+
+            for video_path in sorted(videos):
+                video_name = os.path.basename(video_path)
+                self.videos[video_name] = {}
+                self.videos[video_name]['path'] = video_path
+                
+                escaped_video_path = glob.escape(video_path)
+                image_pattern = os.path.join(escaped_video_path, '*.[jJ][pP][gG]') 
+                # --- 수정 끝 ---
+                
+                frame_paths = glob.glob(image_pattern)
+                frame_paths_sorted = sorted([c.replace("\\", "/") for c in frame_paths])
+                self.videos[video_name]['frame'] = frame_paths_sorted
+                self.videos[video_name]['length'] = len(frame_paths_sorted)
+                print(f"  - In '{video_name}': Found {self.videos[video_name]['length']} frames.")
+                    
             
     def get_all_samples(self):
         frames = []
-        if "xd" in self.dir or "ucf" in self.dir:
-            videos = []
-            with open(f'datasets/split_{self.phase}_{self.dataset_type}.json', 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            for i in data.keys():    
-                videos.append(os.path.join(self.dir,i))
-        else:
-            videos = glob.glob(os.path.join(self.dir, '*'))
-        videos=[c.replace("\\","/") for c in videos ]
-        for video in sorted(videos):
-            video_name = video.split('/')[-1]
-            for i in range(len(self.videos[video_name]['frame'])-self._time_step):
+        
+        # setup()에서 이미 모든 정보를 self.videos에 로드했습니다.
+        # 따라서 파일 시스템을 다시 검색할 필요 없이 self.videos의 키(비디오 이름)를 직접 사용합니다.
+        # sorted()를 사용해 '01', '02', ... 순서로 일관되게 처리합니다.
+        for video_name in sorted(self.videos.keys()):
+            
+            # self._time_step 만큼의 길이를 가진 샘플을 만들 수 있는 구간까지만 반복합니다.
+            # 이 로직은 사용자님의 기존 코드와 동일하며, 올바른 방식입니다.
+            num_frames = self.videos[video_name]['length']
+            for i in range(num_frames - self._time_step):
+                # 각 샘플의 시작 프레임 경로를 리스트에 추가합니다.
                 frames.append(self.videos[video_name]['frame'][i])
-                           
-        return frames               
+                        
+        return frames         
             
         
     def __getitem__(self, index):

@@ -25,10 +25,13 @@ def get_dataset(args, config):
     patch_size = config.data.patch_size
     dataset_type = config.data.dataset
     time_step = config.data.time_step
-    TrainD = ADLoader(video_folder="/home/data/datasets/",dataset_type=dataset_type,phase="train",time_step=time_step,patch_size = patch_size,transform=transforms.Compose([
+    data_path = config.data.data_dir
+
+    TrainD = ADLoader(video_folder=data_path,dataset_type=dataset_type,phase="train",time_step=time_step,patch_size = patch_size,transform=transforms.Compose([
              transforms.ToTensor(),]),resize_height=imsize,resize_width=imsize) 
-    TestD = ADLoader(video_folder="/home/data/datasets/",dataset_type=dataset_type,phase="test",time_step=time_step,patch_size = patch_size,transform=transforms.Compose([
+    TestD = ADLoader(video_folder=data_path,dataset_type=dataset_type,phase="test",time_step=time_step,patch_size = patch_size,transform=transforms.Compose([
              transforms.ToTensor(),]),resize_height=imsize,resize_width=imsize,parse_patches=False) 
+    
 
     return TrainD, TestD
 
